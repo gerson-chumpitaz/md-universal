@@ -7,7 +7,7 @@ Convertidor de PDF y DOCX a Markdown pensado para trabajar con modelos de lengua
 Esta herramienta es la parte práctica de dos marcos de trabajo que se complementan.
 
 - [Criterio de Activación](https://github.com/gerson-chumpitaz/criterio-de-activacion) propone trabajar con una representación barata del documento (el Markdown) y consultar la fuente original (el PDF) solo cuando aparece una señal de riesgo. Aquí, la conversión produce esa representación, `protocolo_auditoria.py` implementa las señales de riesgo y la corrección guiada por el PDF original cubre la verificación selectiva.
-- Protocolo de Trazabilidad [enlace pendiente de publicación] exige anclar cada afirmación a un documento y a una página. Los marcadores `## 📄 Página N` que genera este convertidor son los que hacen posible ese anclaje.
+- [Protocolo de Trazabilidad](https://github.com/gerson-chumpitaz/protocolo-de-trazabilidad) exige anclar cada afirmación a un documento y a una página. Los marcadores `## 📄 Página N` que genera este convertidor son los que hacen posible ese anclaje.
 
 ## Qué hace
 
