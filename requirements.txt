@@ -1,0 +1,26 @@
+# MD Universal: dependencias de Python
+#
+# Probado con Python 3.11 en Linux. Las versiones de PyMuPDF se fijan porque
+# app_universal.py importa pymupdf.layout, que depende de la versión de
+# pymupdf4llm. El resto usa versiones mínimas.
+#
+# Además de estos paquetes necesitas dos programas externos:
+# Tesseract OCR (con datos del idioma español) y Poppler. Ver README.md.
+
+streamlit>=1.50
+pymupdf==1.28.2
+pymupdf4llm==1.28.2
+pdfplumber>=0.11
+pytesseract>=0.3.13
+pdf2image>=1.17
+python-docx>=1.2
+img2table>=2.0
+opencv-python>=4.10
+numpy>=2.0
+
+# Opcional: Modo API de corrección con IA (requiere ANTHROPIC_API_KEY).
+anthropic>=1.0
+
+# Opcional: sin este paquete, el patrón D de protocolo_auditoria.py
+# (errores de palabra individual) no se evalúa.
+pyspellchecker>=0.9

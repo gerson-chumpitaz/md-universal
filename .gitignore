@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Datos del usuario y salidas locales (pueden contener material con derechos de autor o confidencial)
+correccion_claude_code/
+*.log
+salidas/
+
+# Configuración y secretos locales
+.env
+.claude/
+.streamlit/secrets.toml
